@@ -15,7 +15,7 @@ body {
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
 }
-  
+
 .container {
     margin: 0 auto;
     padding: 0 30px;
@@ -322,6 +322,7 @@ body {
   
 .additional-info__education-university-name {
     color: var(--secondary-text-color);
+    margin-bottom: 10px;
 }
   
 .additional-info__languages {
@@ -336,4 +337,18 @@ body {
   
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.additional-info__hobbies {
+  margin-bottom: 20px;
+}
+
+.additional-info__hobbies-header {
+  color: var(--secondary-text-color);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.additional-info__hobbies-item {
+  color: var(--secondary-text-color);
 }
