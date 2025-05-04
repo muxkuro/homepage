@@ -15,7 +15,7 @@ body {
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
 }
-  
+
 .container {
     margin: 0 auto;
     padding: 0 30px;
@@ -56,6 +56,7 @@ body {
   
     .contact_info_container {
       align-items: center;
+      justify-content: center;
     }
   
     .contact-info__block:not(:last-child) {
@@ -218,14 +219,26 @@ body {
     color: var(--secondary-text-color);
     text-align: justify;
 }
-  
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
     margin-bottom: 15px;
 }
-  
-.skills__text {
+
+.skills__list {
+    list-style-type: "\27A1";
+    text-align: justify;
+}
+
+.skills__list-text {
     color: var(--secondary-text-color);
     text-align: justify;
 }
@@ -281,6 +294,7 @@ body {
   
 .additional-info {
     flex: 1 1 40%;
+    justify-content: flex-start;
 }
   
 .additional-info__education {
@@ -308,6 +322,7 @@ body {
   
 .additional-info__education-university-name {
     color: var(--secondary-text-color);
+    margin-bottom: 10px;
 }
   
 .additional-info__languages {
@@ -322,4 +337,18 @@ body {
   
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.additional-info__hobbies {
+  margin-bottom: 20px;
+}
+
+.additional-info__hobbies-header {
+  color: var(--secondary-text-color);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.additional-info__hobbies-item {
+  color: var(--secondary-text-color);
 }
