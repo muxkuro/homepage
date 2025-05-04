@@ -16,6 +16,23 @@ body {
     --text-decoration-color: #ff9a00;
 }
 
+body.dark-mode {
+  background-color: #121212;
+  --primary-text-color: #ffffff;  
+  --secondary-text-color: #909094;
+  --durability-text-color: #8e99a69c; 
+  --icon-color: #8a96a4;
+  --border-color: #ff9a0045; 
+  --text-decoration-color: #ff9a00;
+}
+
+#dark-mode-toggle {
+  background-color: #ff9a00;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 30px;
@@ -65,6 +82,17 @@ body {
   
     .experiences {
       margin-right: 0;
+    }
+
+    #dark-mode-toggle {
+      padding: 3px;
+      max-width: 100px;
+      margin-bottom: 10px;
+    }
+
+    .skills {
+      flex-wrap: wrap;
+      gap: 15px;
     }
 }
 
@@ -224,7 +252,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
 }
 
 .skills__header {
